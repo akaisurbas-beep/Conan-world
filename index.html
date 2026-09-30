@@ -27,6 +27,23 @@ section{margin-top:22px}.episode{display:inline-block;background:#0d1421;border:
 footer{color:#778399;text-align:center;padding:35px 0;font-size:12px}
 @media(max-width:650px){.profileTop{grid-template-columns:1fr}.profileImg{height:280px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.thumb{height:180px}.ar{font-size:16px}}
 .movie-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin-top:10px}.movie-card{background:var(--card2);border:1px solid var(--line);border-radius:12px;padding:12px}.movie-card b{display:block;color:var(--gold);margin-bottom:5px}.fanart-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin-top:10px}.fanart-card{background:var(--card2);border:1px solid var(--line);border-radius:12px;padding:14px}.fanart-card a{color:#7dd3fc;text-decoration:none;font-weight:700}.rights-note{font-size:12px;color:var(--muted);line-height:1.6}
+
+.social-section{margin:28px 0 10px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px}
+.social-title{font-size:25px;margin:0 0 6px}
+.social-intro{color:var(--muted);line-height:1.7;margin:0 0 16px}
+.social-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:12px}
+.social-card{background:var(--card2);border:1px solid var(--line);border-radius:15px;padding:15px;transition:.2s}
+.social-card:hover{transform:translateY(-3px);border-color:#42516a}
+.social-top{display:flex;align-items:center;gap:12px;margin-bottom:11px}
+.social-avatar{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#0d1421;border:1px solid var(--line);font-weight:900;color:var(--gold);font-size:18px}
+.social-name{font-size:17px;font-weight:900}
+.social-handle{font-size:12px;color:#7dd3fc;margin-top:3px}
+.social-desc{color:#cbd5e1;line-height:1.65;font-size:13px;min-height:64px}
+.social-tag{display:inline-block;margin-top:10px;padding:5px 8px;border-radius:7px;background:#1e293b;color:#cbd5e1;font-size:11px}
+.social-btn{display:inline-block;margin-top:13px;background:#1d9bf0;color:#fff;font-weight:800;padding:9px 13px;border-radius:10px}
+.social-note{font-size:12px;color:#778399;margin:14px 0 0;line-height:1.6}
+@media(max-width:650px){.social-grid{grid-template-columns:1fr}}
+
 .streams-section{margin:28px 0 10px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px}
 .streams-title{font-size:25px;margin:0 0 14px}
 .stream-card{display:grid;grid-template-columns:230px 1fr;gap:18px;align-items:center}
@@ -49,10 +66,27 @@ footer{color:#778399;text-align:center;padding:35px 0;font-size:12px}
 
 <main id="home">
 <input id="search" class="search" placeholder="ابحث عن شخصية...">
-<a href="#conan-streams" style="display:inline-block;margin:10px 0 2px;color:var(--gold);font-weight:800;text-decoration:none">🎥 الانتقال إلى بثوث كونان</a>
+<a href="#conan-social" style="display:inline-block;margin:10px 8px 2px;color:var(--gold);font-weight:800;text-decoration:none">𝕏 حسابات كونان على X</a>
+    <a href="#conan-streams" style="display:inline-block;margin:10px 0 2px;color:var(--gold);font-weight:800;text-decoration:none">🎥 الانتقال إلى بثوث كونان</a>
 <div id="filters" class="filters"></div>
 <section>
 <div id="grid" class="grid"></div>
+</section>
+
+
+<section class="social-section" id="conan-social">
+  <h2 class="social-title">𝕏 حسابات كونان المميزة على X</h2>
+  <p class="social-intro">مجموعة منتقاة من الحسابات العربية المهتمة بالمتحري كونان، وتشمل الأخبار، المانغا، الترجمة، التحليلات ومحتوى المعجبين.</p>
+  <div class="social-grid">
+    <article class="social-card"><div class="social-top"><div class="social-avatar">DC</div><div><div class="social-name">شبكة كونان العربية</div><div class="social-handle">@DC_ARAB</div></div></div><div class="social-desc">شبكة متخصصة في أخبار ومحتوى كونان، وتنشر إصدارات المانغا والحلقات عبر فريق DCANSubs.</div><span class="social-tag">أخبار • ترجمة • مانغا</span><br><a class="social-btn" href="https://x.com/DC_ARAB" target="_blank" rel="noopener noreferrer">زيارة الحساب</a></article>
+    <article class="social-card"><div class="social-top"><div class="social-avatar">NB</div><div><div class="social-name">Night Baron</div><div class="social-handle">@iNightBaron</div></div></div><div class="social-desc">حساب كوناني نشط يهتم بأخبار السلسلة، المانغا، المعلومات والتحديثات المتعلقة بعالم كونان.</div><span class="social-tag">أخبار • معلومات • مانغا</span><br><a class="social-btn" href="https://x.com/iNightBaron" target="_blank" rel="noopener noreferrer">زيارة الحساب</a></article>
+    <article class="social-card"><div class="social-top"><div class="social-avatar">TM</div><div><div class="social-name">TMDCX</div><div class="social-handle">@TMDCXMANGA_2</div></div></div><div class="social-desc">حساب فريق متخصص في ترجمة مانغا المحقق كونان ومحتوى مرتبط بالسلسلة.</div><span class="social-tag">مانغا • ترجمة</span><br><a class="social-btn" href="https://x.com/TMDCXMANGA_2" target="_blank" rel="noopener noreferrer">زيارة الحساب</a></article>
+    <article class="social-card"><div class="social-top"><div class="social-avatar">AH</div><div><div class="social-name">أحمد بوربون</div><div class="social-handle">@AHMEDAH43756313</div></div></div><div class="social-desc">محتوى فانز كونان، ومنشورات تتعلق بالقصة والشخصيات، مع موارد وملخصات للحلقات المهمة.</div><span class="social-tag">تحليل • ملخصات • فانز</span><br><a class="social-btn" href="https://x.com/AHMEDAH43756313" target="_blank" rel="noopener noreferrer">زيارة الحساب</a></article>
+    <article class="social-card"><div class="social-top"><div class="social-avatar">AS</div><div><div class="social-name">The ConanSign</div><div class="social-handle">@TheConanSign</div></div></div><div class="social-desc">حساب يهتم بمحتوى كونان المرئي، مثل المحاكاة والرسوم المتحركة المتعلقة بشارات وأعمال السلسلة.</div><span class="social-tag">مونتاج • محاكاة • فانز</span><br><a class="social-btn" href="https://x.com/TheConanSign" target="_blank" rel="noopener noreferrer">زيارة الحساب</a></article>
+    <article class="social-card"><div class="social-top"><div class="social-avatar">AB</div><div><div class="social-name">ABOODYSUBS</div><div class="social-handle">@ABOODY_SUBS</div></div></div><div class="social-desc">مترجم وعضو في فريق أويبو للترجمة، وينشر إصدارات مترجمة من حلقات المحقق كونان.</div><span class="social-tag">ترجمة • حلقات</span><br><a class="social-btn" href="https://x.com/ABOODY_SUBS" target="_blank" rel="noopener noreferrer">زيارة الحساب</a></article>
+    <article class="social-card"><div class="social-top"><div class="social-avatar">AL</div><div><div class="social-name">ALI</div><div class="social-handle">@raeldia</div></div></div><div class="social-desc">حساب ينشر أخبار الحلقات ومحتوى كونان، ويشارك معلومات وجداول مرتبطة بالسلسلة.</div><span class="social-tag">أخبار • معلومات</span><br><a class="social-btn" href="https://x.com/raeldia" target="_blank" rel="noopener noreferrer">زيارة الحساب</a></article>
+  </div>
+  <p class="social-note">القائمة انتقائية وليست ترتيبًا رسميًا. قد تتغير الحسابات أو نشاطها بمرور الوقت، لذلك يُفضّل مراجعة الحساب نفسه قبل الاعتماد على أي معلومة حديثة.</p>
 </section>
 
 <section class="streams-section" id="conan-streams">

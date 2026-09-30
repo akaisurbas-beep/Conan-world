@@ -1,5 +1,7 @@
-CONAN FILES — Updated mobile GitHub Pages version
+CONAN FILES v7
 
-Replace your old index.html with this file. No characters folder or JSON files are required.
+تم إصلاح قسم بثوث كونان ووضعه داخل الصفحة الرئيسية نفسها، أسفل قائمة الشخصيات.
+القناة: HammudeAli
+رابط Twitch: https://www.twitch.tv/hammudeali
 
-Added: movie appearance section and Fan Art search links on every character profile. Fan Art links point to search pages; artwork remains the property of its artists. Movie lists are curated and may not be exhaustive.
+استبدل index.html القديم بهذا الملف في GitHub Pages ثم اعمل Commit changes.

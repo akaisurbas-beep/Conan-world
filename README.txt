@@ -1,10 +1,5 @@
-CONAN FILES - Mobile GitHub Pages version
+CONAN FILES — Updated mobile GitHub Pages version
 
-طريقة الرفع من الهاتف:
-1) ارفع index.html فقط إلى مستودع GitHub.
-2) إذا كان لديك index.html قديم، استبدله بهذا الملف.
-3) Settings > Pages > Deploy from branch > main > /(root) > Save.
-4) افتح رابط GitHub Pages.
+Replace your old index.html with this file. No characters folder or JSON files are required.
 
-هذه النسخة لا تحتاج مجلد characters ولا ملفات JSON منفصلة.
-كل الشخصيات وصفحاتها موجودة داخل index.html.
+Added: movie appearance section and Fan Art search links on every character profile. Fan Art links point to search pages; artwork remains the property of its artists. Movie lists are curated and may not be exhaustive.
